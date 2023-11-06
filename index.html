@@ -99,13 +99,23 @@
   </main>
 
   <footer class="footer">
-    <button class="card__memory-button">
+    <button class="card__memory-button" type="button" onclick="window['insert'].showModal()" aria-controls="insert">
       <svg viewBox="0 0 40 40" class="floppy">
         <use href="./images/floppy.svg#floppy" class="floppy-icon">
       </svg>
       <span class="button__text">Сохранить на память</span>
     </button>
   </footer>
+
+  <dialog class="insert" id="insert">
+    <svg viewBox="0 0 40 40" class="floppy-dialog">
+      <use href="./images/floppy.svg#floppy" class="floppy-icon">
+    </svg>
+    <span class="button__text">Вставьте дискету, чтобы продолжить</span>
+    <form>
+      <button class="dialog-button card__memory-button" type="submit"><span class="button__text">Ok</span></button>
+    </form>
+  </dialog>
 
   <script src="./scripts/like.js"></script>
 </body>

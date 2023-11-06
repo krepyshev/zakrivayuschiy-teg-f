@@ -283,3 +283,19 @@
   fill: var(--sparks-color);
   opacity: 0;
 }
+
+.insert {
+  background-color: var(--bg-color);
+  border: none;
+}
+
+.floppy-dialog {
+  inline-size: 39px;
+  color: var(--color-dif);
+  mix-blend-mode: difference;
+}
+
+dialog::backdrop {
+  background-color: rgb(0 0 0 / 0.3);
+  backdrop-filter: blur(7px);
+}
