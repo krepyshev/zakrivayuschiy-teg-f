@@ -10,7 +10,7 @@
     block-size: 377px;
   }
   .card:not(:first-child) {
-    margin-block-start: 54px;
+    margin-block-start: 52px;
   }
   .card__memory-button {
     flex-direction: column;
