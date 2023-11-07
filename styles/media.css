@@ -1,0 +1,21 @@
+@media (width <= 375px) {
+  .content-container {
+    inline-size: 100vw;
+  }
+  .header {
+    padding-block-start: 120px;
+    padding-inline: 0;
+  }
+  .card__image__wrap {
+    block-size: 377px;
+  }
+  .card:not(:first-child) {
+    margin-block-start: 54px;
+  }
+  .card__memory-button {
+    flex-direction: column;
+  }
+  .floppy {
+    inline-size: 28px;
+  }
+}
