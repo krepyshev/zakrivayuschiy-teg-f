@@ -38,7 +38,7 @@
 
 .like-icon.is-liked .core {
 	fill: var(--sparks-color);
-	transition: 0.3s linear 0.05s;
+	transition: 0.3s linear;
 }
 
 .like-icon.is-liked .main-body {
